@@ -253,6 +253,11 @@ input[type=submit] {
     margin-bottom: 20px;
   }
 
+  .work {
+  width: 100%;
+  margin: 20px 0 25px;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -273,6 +278,14 @@ input[type=submit] {
   .auth-image {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
   }
 
 }
@@ -318,6 +331,11 @@ input[type=submit] {
 
   #masthead {
     position: static;
+  }
+
+  .work {
+  width: 100%;
+  margin: 20px 0 25px;
   }
 
 }
